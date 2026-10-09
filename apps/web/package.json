@@ -1,0 +1,19 @@
+{
+  "name": "dispacch-web",
+  "version": "1.0.0",
+  "description": "Dispacch User Dashboard & Load Visualization Web Application",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "node -e \"console.log('Dispacch Web built successfully.')\""
+  },
+  "keywords": [
+    "freight-pooling",
+    "logistics",
+    "3d-bin-packing",
+    "route-consolidation"
+  ],
+  "author": "Dispacch Team",
+  "license": "MIT"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "dispacch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Intelligent logistics and freight-pooling monorepo designed to optimize freight capacity, cargo route consolidation, and container utilization.",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "node apps/web/server.js",
+    "dev:web": "node apps/web/server.js",
+    "dev:api": "node apps/api/server.js",
+    "build": "echo \"Monorepo build completed.\""
+  },
+  "keywords": [
+    "freight-pooling",
+    "logistics-optimization",
+    "3d-bin-packing",
+    "monorepo",
+    "dispacch"
+  ],
+  "author": "Dispacch Engineering Team",
+  "license": "MIT"
+}
